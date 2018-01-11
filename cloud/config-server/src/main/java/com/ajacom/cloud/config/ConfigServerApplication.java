@@ -11,4 +11,7 @@ public class ConfigServerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ConfigServerApplication.class, args);
 	}
+    /**
+     * http://localhost:8888/config-server/dev
+     */
 }
