@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/liuchengmin-24/spring-cloud/
+          search-paths: cloud
+          username: ajacom@sina.com
+          password: lcm216127
+      label: master
+server:
+  port: 8888
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
