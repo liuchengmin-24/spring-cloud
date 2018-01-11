@@ -46,7 +46,7 @@ public class MyFilter extends ZuulFilter{
 
             return null;
         }
-        log.info("ok"); 
+        log.info("ok");
         return null;
     }
 }
