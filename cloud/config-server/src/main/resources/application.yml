@@ -6,7 +6,7 @@ spring:
       server:
         git:
           uri: https://github.com/liuchengmin-24/spring-cloud/
-          search-paths: cloud
+          search-paths: cloud/properties
           username: ajacom@sina.com
           password: lcm216127
       label: master
