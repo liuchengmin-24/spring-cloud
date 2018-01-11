@@ -14,5 +14,4 @@ server:
   port: 8888
 eureka:
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    eureka-server-u-r-l-context: http://localhost:8761/eureka/

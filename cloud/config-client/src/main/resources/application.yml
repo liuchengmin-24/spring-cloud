@@ -5,6 +5,20 @@ spring:
     config:
       label: master
       profile: test
-      uri: http://localhost:8888/
+      #uri: http://localhost:8888/
+      discovery:
+        enabled: true
+        service-id: config-server
+  rabbitmq:
+    host: localhost
+    port: 5672
+    #username:
+    #password:
 server:
   port: 8881
+eureka:
+  client:
+    eureka-server-u-r-l-context: http://localhost:8761/eureka/
+management:
+  security:
+    enabled: false
